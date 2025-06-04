@@ -26,13 +26,13 @@ A lightweight C++ application to load and visualize `.ply` point cloud files wit
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/pointcloud-viewer-opencv.git
-cd pointcloud-viewer-opencv
+git clone https://github.com/rytisss/anaglyph3D.git
+cd anaglyph3D
 ```
 
 ### 2. Compile the code
 
-Make sure OpenCV is correctly installed and configured on your system (you can download precompiled MSVC versions (VTK)[https://drive.google.com/file/d/1HEUVQ4WsSe-M1uLIcjWU_5Qcr4W7updh/view?usp=sharing] and (OpenCV)[https://drive.google.com/file/d/1SLkYkSC-TesMMxo_s_n2fLHV3aiqJw18/view?usp=sharing])
+Make sure OpenCV is correctly installed and configured on your system (you can download precompiled MSVC versions [VTK](https://drive.google.com/file/d/1HEUVQ4WsSe-M1uLIcjWU_5Qcr4W7updh/view?usp=sharing) and [OpenCV](https://drive.google.com/file/d/1SLkYkSC-TesMMxo_s_n2fLHV3aiqJw18/view?usp=sharing))
 
 **Linux/macOS:**
 
@@ -42,9 +42,7 @@ g++ main.cpp -o viewer `pkg-config --cflags --libs opencv4`
 
 **Windows (using MSVC):**
 
-```cmd
-cl main.cpp /I"path\to\opencv\include" /link /LIBPATH:"path\to\opencv\lib" opencv_world4xx.lib
-```
+Use Visual Studio IDE :)  
 
 > Replace `4xx` with your actual OpenCV version.
 
@@ -72,11 +70,11 @@ Enter path to PLY file: /path/to/your/cloud.ply
 
 ## 🗞️ Example
 
+Example data is in *example_data/* folder:  
+
 ```bash
 Enter path to PLY file: ./example_data/20250429_105703_0.ply
 ```
-
-![screenshot](https://your-screenshot-url-or-remove-this-line.png)
 
 ---
 
@@ -92,10 +90,10 @@ You can adjust the point size rendered in the viewer by changing the `POINTSIZE`
 
 ## 🧹 Dependencies
 
-* [OpenCV Viz module](https://docs.opencv.org/master/d7/dff/tutorial_viz_basics.html)
+* [OpenCV Viz module](https://docs.opencv.org/4.x/d1/d19/group__viz.html)
 * [VTK](https://vtk.org/) (required by OpenCV Viz)
 
-or download precompiled (VTK)[https://drive.google.com/file/d/1HEUVQ4WsSe-M1uLIcjWU_5Qcr4W7updh/view?usp=sharing] and (OpenCV)[https://drive.google.com/file/d/1SLkYkSC-TesMMxo_s_n2fLHV3aiqJw18/view?usp=sharing]
+or download precompiled [VTK](https://drive.google.com/file/d/1HEUVQ4WsSe-M1uLIcjWU_5Qcr4W7updh/view?usp=sharing) and [OpenCV](https://drive.google.com/file/d/1SLkYkSC-TesMMxo_s_n2fLHV3aiqJw18/view?usp=sharing)
 
 ---
 
