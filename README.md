@@ -50,14 +50,14 @@ Use Visual Studio IDE :)
 
 **Linux/macOS:**
 
+```bash
+./viewer
+```
+
 **Windows:**
 
 ```cmd
 viewer.exe
-```
-
-```bash
-./viewer
 ```
 
 When prompted, enter the full path to a `.ply` file:
