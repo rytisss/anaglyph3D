@@ -1,6 +1,8 @@
 # 🌈 Point Cloud Viewer using OpenCV Viz
 
-A lightweight C++ application to load and visualize `.ply` point cloud files with color support, using OpenCV's `viz` module.
+A lightweight C++ application to load and visualize `.ply` point cloud files with color support, using OpenCV's `viz` module with anaglyph support. **Press 3 to switch to anaglyph mode (don't forget your 3D glasses!)**
+
+https://github.com/user-attachments/assets/4df6afbd-590b-40d9-b902-7fd663b84f47
 
 ---
 
